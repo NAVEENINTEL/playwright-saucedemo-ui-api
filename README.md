@@ -7,7 +7,7 @@ Repo used for interview testing
 
  
 
-Using the following site https://www.saucedemo.com/ and the playwright framework https://playwright.dev/
+Using the following site https://www.saucedemo.com/ and the playwright framework using JS/TS https://playwright.dev/
 
 Create a test that will:
 
