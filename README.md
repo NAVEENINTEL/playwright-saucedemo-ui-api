@@ -11,8 +11,7 @@ Using the following site https://www.saucedemo.com/ and the playwright framework
 
 Create a test that will:
 
-First, place all items into the cart, then move to the cart section to verify the total count of added products and ensure that all items are present in the cart and finally checkout to verify order was successful.
- 
+Buy the least expensive item along with the first item in alphabetical order, then proceed to checkout with both. If the tax rate is 8%, is the final price at checkout accurate?
 
 ## Task 2, API Task
 
