@@ -1,0 +1,18 @@
+{
+  "name": "interviewtest",
+  "version": "1.0.0",
+  "description": "Repo used for interview testing",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "playwright test ui/",
+    "test:api": "playwright test api/",
+    "test:all": "playwright test && playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.2"
+  }
+}
