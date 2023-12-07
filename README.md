@@ -1,7 +1,3 @@
-# interviewTest
-Repo used for interview testing
-
- 
 
 ## Task 1, UI Task
 
