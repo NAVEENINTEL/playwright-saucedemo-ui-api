@@ -53,7 +53,7 @@ for (let i = 0; i < Math.min(userDetails.length, shippingDetails.length); i++) {
     // Verify the total price
     const actualTotal = await cartPage.getTotalPrice();
     const expectedTotal = (subtotal * 1.08).toFixed(2);
-    expect(actualTotal).toBe(expectedTotal);
+    expect(actualTotal).toBe(expectedTotal+1);
     console.log("Final price:")
     console.log(`Expected price: ${expectedTotal} || Actual Price: ${actualTotal}`);
 
