@@ -1,5 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const { fetchRandomImageUrl } = require('../../utils/apiTestUtils');
+const { validateHeaderName } = require('http');
 
 test.describe('Check for duplicate images from API', () => {
   test('should not receive duplicate images', async () => {
@@ -14,6 +15,14 @@ test.describe('Check for duplicate images from API', () => {
     }
   });
 });
+
+
+
+
+
+
+ 
+
 
 
 
